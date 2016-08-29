@@ -1,0 +1,5 @@
+R Studio Notes
+
+1). Ctrl + L  								--> Clear the console screen
+2). Ctrl + shift + N 						--> Create a new R script file
+3). Ctrl + Enter							--> Run Line(s) of code
