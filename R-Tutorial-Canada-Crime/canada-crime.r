@@ -17,7 +17,7 @@ crime_data[1:10,]
 #Position of data as a vector row 1 column 4
 crime_data[1,4]
 
-# Print out year according to conditional statement
+# Returns a set of rows where the conditional statement is true
 x <- subset(crime_data, ftheft < mtheft)
 # print(paste0("Year female theft was greater than male theft ", x))
 # sprintf("Year female theft was greater than male theft ", x)
@@ -39,3 +39,6 @@ var(crime_data$mtheft, na.rm = TRUE) # Removes the NA from the column and then c
 sd(crime_data$fconvict)
 sd(crime_data$mtheft, na.rm = TRUE) # Removes the NA from the column and then calculates the standard deviation
 
+# Statistical summary or the entire data set or just one column
+summary(crime_data)
+summary(crime_data, na.rm = TRUE)
