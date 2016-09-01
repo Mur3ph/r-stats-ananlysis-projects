@@ -42,3 +42,33 @@ sd(crime_data$mtheft, na.rm = TRUE) # Removes the NA from the column and then ca
 # Statistical summary or the entire data set or just one column
 summary(crime_data)
 summary(crime_data, na.rm = TRUE)
+
+#Plotting data where 's' is a subset of the original dataset
+s <- crime_data[1:100,]
+plot(x = s$mconvict, y = s$fconvict, type='p')
+
+#Histogram
+hist(crime_data$fconvict)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
