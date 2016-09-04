@@ -50,6 +50,10 @@ plot(x = s$mconvict, y = s$fconvict, type='p')
 #Histogram
 hist(crime_data$fconvict)
 
+# Bar plots
+counts <- table(crime_data$fconvict)
+barplot(counts, main="Female Convicts", xlab="Number of Female Convicts")
+
 
 
 
