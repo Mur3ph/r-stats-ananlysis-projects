@@ -86,4 +86,4 @@ my_matrix[2,]          # Row 2, all Columns
 my_matrix[,1]          # All rows, Column 1
 my_matrix * 10
 
-# NEXT IS LECTURE 5
+
