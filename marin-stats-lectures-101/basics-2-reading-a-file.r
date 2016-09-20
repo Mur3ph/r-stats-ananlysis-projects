@@ -1,5 +1,3 @@
-#Youtube videos with MarinStatsLectures - NEXT IS LECTURE 5
-
 #Importing data from CSV (Comma Seperated File) file and TXT file
 
 # If you need a discription of how to use any function. 
