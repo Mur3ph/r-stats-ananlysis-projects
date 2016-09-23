@@ -1,4 +1,4 @@
-#Youtube videos with MarinStatsLectures - NEXT IS LECTURE 8
+#Youtube videos with MarinStatsLectures - NEXT IS LECTURE 9
 
 LungCapData <- read.delim("C:/dev/R/workspace/marin-stats-lectures-101/data/Lung/LungCapData.txt")
 View(LungCapData)
@@ -40,12 +40,30 @@ class(x)
 summary(x)
 
 
+# Subset data by using Square brackets
+# Rows 11 to 14
+Age[11:14]
+LungCapData[11:14, ]
 
+#Get the Mean Age where Gender is equal to female
+mean(Age[Gender=="female"])
 
+#Get the Mean Age where Gender is equal to male
+mean(Age[Gender=="male"])
 
+female <- LungCapData[Gender=="female", ]
+male <- LungCapData[Gender=="male", ]
 
+dim(female) #Shows rows and columns
+dim(male)   #Shows rows and columns
 
+summary(Gender)
 
+female[1:4, ]
+
+maleOver15 <- LungCapData[Gender=="male" & Age > 15, ]
+dim(maleOver15)
+maleOver15[1:4, ]
 
 
 
