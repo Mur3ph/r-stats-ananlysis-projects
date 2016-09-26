@@ -1,5 +1,3 @@
-#Youtube videos with MarinStatsLectures - NEXT IS LECTURE 9
-
 LungCapData <- read.delim("C:/dev/R/workspace/marin-stats-lectures-101/data/Lung/LungCapData.txt")
 View(LungCapData)
 
