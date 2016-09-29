@@ -1,5 +1,4 @@
-#Youtube videos with MarinStatsLectures - NEXT IS LECTURE 10
-
+#Read external file
 LungCapData <- read.delim("C:/dev/R/workspace/marin-stats-lectures-101/data/Lung/LungCapData.txt")
 
 attach(LungCapData)                # First we have to 'attach' the data which stores it in R's memory
